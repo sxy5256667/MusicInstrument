@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context="com.example.music.Main" >
+
+    <!--
+         The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc.
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.61"
+        android:background="@drawable/main_background"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:orientation="horizontal" >
+        
+	<AbsoluteLayout 
+		    android:layout_width="220dp"
+        	android:layout_height="190dp"
+      		android:background="@drawable/main_bian"
+        	android:gravity="center"
+        	android:keepScreenOn="true"
+        	android:orientation="horizontal" >
+
+	    <Button
+            android:id="@+id/o"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"/>
+	    
+        <Button
+            android:id="@+id/freebtn"
+            android:layout_width="65dp"
+            android:layout_height="140dp"
+            android:layout_x="45dp"
+            android:layout_y="15dp"
+            android:background="@drawable/main_freeplay"/>
+
+        <Button
+            android:id="@+id/exerbtn"
+            android:layout_width="65dp"
+            android:layout_height="140dp"
+            android:layout_x="110dp"
+            android:layout_y="15dp"
+            android:background="@drawable/main_exercise"/>
+
+        </AbsoluteLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/main"
+        android:gravity="center"
+        android:keepScreenOn="true" >
+
+        <Button
+            android:id="@+id/loadbtn"
+            android:layout_width="285dp"
+            android:layout_height="40dp"
+            android:background="@drawable/main_button"
+            android:text="导 入 曲 谱"
+            android:textColor="#000000" 
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/probtn"
+            android:layout_width="285dp"
+            android:layout_height="40dp"
+            android:background="@drawable/main_button"
+            android:text="曲 谱 生 成" 
+            android:textColor="#000000" 
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="60dp"
+            android:layout_height="42dp"
+            android:background="@drawable/main_exit"
+            android:text="EXIT"
+            android:textColor="#000000" 
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

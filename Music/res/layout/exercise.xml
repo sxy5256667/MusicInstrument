@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Exercise" >
+
+    <Button
+        android:id="@+id/o"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp" />
+    <Button
+        android:id="@+id/white1"
+        android:layout_width="40dp"
+        android:layout_height="150dp"
+        android:layout_x="30dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_white" />
+    <Button
+        android:id="@+id/white2"
+        android:layout_width="40dp"
+        android:layout_height="150dp"
+        android:layout_x="71dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_white" />
+    <Button
+        android:id="@+id/white3"
+        android:layout_width="40dp"
+        android:layout_height="150dp"
+        android:layout_x="112dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_white" />
+    <Button
+        android:id="@+id/white4"
+        android:layout_width="40dp"
+        android:layout_height="150dp"
+        android:layout_x="153dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_white" />
+    <Button
+        android:id="@+id/white5"
+        android:layout_width="40dp"
+        android:layout_height="150dp"
+        android:layout_x="194dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_white" />
+    <Button
+        android:id="@+id/white6"
+        android:layout_width="40dp"
+        android:layout_height="150dp"
+        android:layout_x="235dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_white" />
+    <Button
+        android:id="@+id/white7"
+        android:layout_width="40dp"
+        android:layout_height="150dp"
+        android:layout_x="276dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_white" />
+    <Button
+        android:id="@+id/white8"
+        android:layout_width="40dp"
+        android:layout_height="150dp"
+        android:layout_x="317dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_white" />
+    <Button
+        android:id="@+id/white9"
+        android:layout_width="40dp"
+        android:layout_height="150dp"
+        android:layout_x="358dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_white" />
+    <Button
+        android:id="@+id/white10"
+        android:layout_width="40dp"
+        android:layout_height="150dp"
+        android:layout_x="399dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_white" />
+    <Button
+        android:id="@+id/white11"
+        android:layout_width="40dp"
+        android:layout_height="150dp"
+        android:layout_x="440dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_white" />
+    <Button
+        android:id="@+id/white12"
+        android:layout_width="40dp"
+        android:layout_height="150dp"
+        android:layout_x="481dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_white" />
+    <Button
+        android:id="@+id/white13"
+        android:layout_width="40dp"
+        android:layout_height="150dp"
+        android:layout_x="522dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_white" />
+    <Button
+        android:id="@+id/white14"
+        android:layout_width="40dp"
+        android:layout_height="150dp"
+        android:layout_x="563dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_white" />
+    <Button
+        android:id="@+id/black1"
+        android:layout_width="30dp"
+        android:layout_height="90dp"
+        android:layout_x="56dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_black" />
+    <Button
+        android:id="@+id/black2"
+        android:layout_width="30dp"
+        android:layout_height="90dp"
+        android:layout_x="97dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_black" />
+    <Button
+        android:id="@+id/black3"
+        android:layout_width="30dp"
+        android:layout_height="90dp"
+        android:layout_x="138dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_black" />
+    <Button
+        android:id="@+id/black4"
+        android:layout_width="30dp"
+        android:layout_height="90dp"
+        android:layout_x="220dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_black" />
+    <Button
+        android:id="@+id/black5"
+        android:layout_width="30dp"
+        android:layout_height="90dp"
+        android:layout_x="261dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_black" />
+    <Button
+        android:id="@+id/black6"
+        android:layout_width="30dp"
+        android:layout_height="90dp"
+        android:layout_x="343dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_black" />
+    <Button
+        android:id="@+id/black7"
+        android:layout_width="30dp"
+        android:layout_height="90dp"
+        android:layout_x="384dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_black" />
+    <Button
+        android:id="@+id/black8"
+        android:layout_width="30dp"
+        android:layout_height="90dp"
+        android:layout_x="425dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_black" />
+    <Button
+        android:id="@+id/black9"
+        android:layout_width="30dp"
+        android:layout_height="90dp"
+        android:layout_x="507dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_black" />
+    <Button
+        android:id="@+id/black10"
+        android:layout_width="30dp"
+        android:layout_height="90dp"
+        android:layout_x="548dp"
+        android:layout_y="150dp"
+        android:background="@xml/p_black" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="117dp"
+        android:layout_y="310dp"
+        android:text="Point:  "
+        android:textSize="25sp" 
+        android:background="#222222"/>
+    
+    <TextView
+        android:id="@+id/point"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_x="190dp"
+        android:layout_y="310dp"
+        android:text="0"
+        android:textSize="25sp" 
+        android:background="#222222"/>
+    
+    <Button
+        android:id="@+id/rtne"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_x="450dp"
+        android:layout_y="310dp"
+        android:background="@drawable/rtn" />
+
+    <LinearLayout 
+        android:id="@+id/drawer"
+        android:layout_width="576dp"
+        android:layout_height="138dp"
+        android:layout_x="28dp"
+        android:layout_y="12dp"
+        android:orientation="vertical"
+        android:background="@drawable/listbackground" >
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/good"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_x="270dp"
+        android:layout_y="60dp"
+        android:src="@drawable/main_exit" />
+
+</AbsoluteLayout>
